@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=Kalam:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.head h3{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    text-align: center;
+    color:grey;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+.head p{
+    text-align: center;
+    color:grey;
+    
+}
+.main{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+   
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    /* border: 1px solid black; */
+    width: 60%;
+
+}
+
+.content input{
+    border: none;
+    text-align: center;
+}
+
+#PlayAgain{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+}
